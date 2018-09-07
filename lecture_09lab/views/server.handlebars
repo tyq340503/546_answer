@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-sm-12">
+    <p>Madam</p>
+    <p>Was it a cat I saw?</p>
+    <p>He did, eh?</p>
+    <p>Go hang a salami, I’m a lasagna hog.</p>
+    <p>Poor Dan is in a droop</p>
+    <p>Taco cat? Taco cat.</p>
+  </div>
+  <div class="col-md-12">
+    <div class="col-md-6" id="attempts">
+      {{#each todoItems}} {{> todo_item }} {{/each}}
+    </div>
+    <div class="col-md-6">
+      <form id="new-item-form">
+        <div class="form-group" id="danger">
+          
+        </div>
+        <div class="form-group">
+          <textarea type="string" name="phrase" class="form-control" id="new-task-name" placeholder="input palindrome">
+        </textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn btn-default" value="submit" /> {{!--
+          <input type="submit" class="btn btn-default" value="Submit" /> --}}
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

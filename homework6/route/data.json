@@ -1,0 +1,16 @@
+{
+    "name": "Your Name",
+    "cwid": "Your CWID",
+    "biography": "2 biography paragraphs separated by a new line character (\n).",
+    "favoriteShows": [
+        "array",
+        "of",
+        "favorite",
+        "shows"
+    ],
+    "hobbies": [
+        "array",
+        "of",
+        "hobbies"
+    ]
+}

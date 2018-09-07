@@ -1,0 +1,54 @@
+body {
+    min-width: 400px;
+    width: 70%;
+    background-color: #eee;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+p {
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #28a745;
+    font-size: 1.2em;
+}
+
+.failure {
+    color: #dc3545;
+    font-size: 1.2em;    
+}
+
+.error {
+    margin-bottom: 10px;
+}
+
+a {
+    margin-top: 30px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:link {
+    color: purple;
+}
+a:hover {
+    font-size: 1.1em;
+}
+a:visited {
+    color: brown;
+}

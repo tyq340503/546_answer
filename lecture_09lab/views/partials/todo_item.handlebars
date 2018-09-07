@@ -1,0 +1,16 @@
+<div class="row" class="todo-item">
+    <div class="col-sm-12 col-md-8">
+        <h3>{{ title }}</h3>
+        {{!-- {{#if notDone }}
+            <a class="finishItem" data-id="{{id}}">Finish</a> 
+        {{/if}}
+        {{#if done }}
+            <em>This task has been completed</em>
+        {{/if}} --}}
+        {{#if istrue }}
+            <a class="is-palindrome" data-id="{{id}}">{{ title }} is a palindrome</a> 
+        {{else}}
+            <a class="not-palindrome" data-id="{{id}}">{{ title }} is not a palindrome</a> 
+        {{/if}}
+    </div>
+</div>

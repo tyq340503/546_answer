@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+    text-align:center;
+}
+
+Topic {
+  font-size: 12pt;
+}
+
+note{
+  font-size: 30px;
+}
+
+desc {
+  font-size: 20px;
+}
+
+
+header{
+	background: #434343;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+/**
+ * footer section
+ */
+footer {
+	background: #434343;
+	font-size: 0.8em;
+	position: relative;
+	
+	bottom: 0;
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer p.title {
+	font-size: 1.2em;
+	padding: 15px;
+}
+
+footer ul {
+	align-items: center;
+	display: flex;
+	padding: 20px;
+}
+
+footer ul li {
+	flex: 1;
+}

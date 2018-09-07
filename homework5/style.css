@@ -1,0 +1,13 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    float:left;
+    margin-left:15px;
+}
+
+.header{
+    height:50px;
+}

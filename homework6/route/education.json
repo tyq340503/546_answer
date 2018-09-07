@@ -1,0 +1,20 @@
+[
+    {
+      "schoolName": "Stevens institute of technology",
+      "degree": "computer science",
+      "favoriteClass": "web programming",
+      "favoriteMemory": "have some internship"
+    },
+    {
+      "schoolName": "Beijing Foresty University",
+      "degree": "Computer science",
+      "favoriteClass": "data scrture",
+      "favoriteMemory": "take some interest class"
+    },
+    {
+      "schoolName": "First School Name",
+      "degree": "computer science",
+      "favoriteClass": "data anlysis",
+      "favoriteMemory": "do some back end using java"
+    }
+]
